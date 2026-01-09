@@ -90,7 +90,7 @@ export default function Services() {
             return (
               <div
                 key={index}
-                ref={el => cardRefs.current[index] = el}
+                ref={el => { cardRefs.current[index] = el; }}
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
                 className={`group relative bg-white border transition-all duration-500 overflow-hidden ${
