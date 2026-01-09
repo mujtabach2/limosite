@@ -96,6 +96,33 @@ export default function ServiceAreasPage() {
         </div>
       </section>
 
+      {/* Interactive Map */}
+      <section className="section-padding bg-gray-50">
+        <div className="container-custom">
+          <h2 className="text-3xl md:text-4xl font-light text-center mb-12 text-luxury-black">
+            Our <span className="gradient-text">Coverage Area</span>
+          </h2>
+          <div className="max-w-5xl mx-auto">
+            <div className="relative w-full h-[400px] md:h-[600px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d738066.0790634268!2d-80.16396365!3d43.71837235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sGreater%20Toronto%20Area%2C%20ON!5e0!3m2!1sen!2sca!4v1704900000000!5m2!1sen!2sca"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Service Coverage Map - Greater Toronto Area"
+              />
+            </div>
+            <p className="text-center text-gray-600 mt-6 font-light">
+              We provide premium luxury transportation services throughout the entire Greater Toronto Area and surrounding regions. 
+              Our coverage extends from downtown Toronto to all major suburbs, airports, and beyond.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Airports */}
       <section className="section-padding bg-white">
         <div className="container-custom">

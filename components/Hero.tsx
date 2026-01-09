@@ -19,8 +19,8 @@ export default function Hero() {
         <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-gold-500/5 rounded-full blur-3xl" />
       </div>
 
-      <div className="container-custom relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
           {/* Content */}
           <div className={`space-y-8 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <div className="inline-block animate-fade-in">
@@ -84,8 +84,8 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Image */}
-          <div className={`relative lg:h-[600px] transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
+          {/* Image - Hidden on mobile, visible on large screens */}
+          <div className={`hidden lg:block relative lg:h-[600px] transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
             <div className="relative h-full overflow-hidden group">
               <img
                 src="https://images.unsplash.com/photo-1615106806531-183c31fccfdc?q=80&w=800&auto=format&fit=crop"

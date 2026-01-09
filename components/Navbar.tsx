@@ -35,7 +35,7 @@ export default function Navbar() {
           : 'bg-white shadow-sm'
       }`}
     >
-      <div className="container-custom">
+      <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 md:space-x-3 group">
@@ -105,10 +105,10 @@ export default function Navbar() {
         {/* Mobile Navigation */}
         <div 
           className={`md:hidden overflow-hidden transition-all duration-300 ${
-            isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+            isOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
           }`}
         >
-          <div className="py-4 space-y-2 border-t">
+          <div className="py-4 pb-6 space-y-2 border-t">
             {navigation.map((item) => {
               const isActive = pathname === item.href;
               return (
