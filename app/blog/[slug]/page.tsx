@@ -188,7 +188,7 @@ export default function BlogPost({ params }: Props) {
             <div className="mt-12 p-8 bg-gray-900 text-white rounded-2xl">
               <h3 className="text-2xl font-bold mb-4">Ready to Experience Luxury?</h3>
               <p className="text-gray-300 mb-6">
-                Book your premium ride today and discover why we're the preferred choice for luxury transportation in the GTA.
+                Book your premium ride today and discover why we&apos;re the preferred choice for luxury transportation in the GTA.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/book" className="bg-white text-gray-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors text-center">

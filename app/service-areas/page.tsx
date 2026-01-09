@@ -161,12 +161,12 @@ export default function ServiceAreasPage() {
                 <div className="flex items-center gap-3 mb-6">
                   <FiMapPin className="w-8 h-8 text-gold-500" />
                   <h2 className="text-3xl font-light">
-                    Can't Find Your <span className="text-gold-500">Location?</span>
+                    Can&apos;t Find Your <span className="text-gold-500">Location?</span>
                   </h2>
                 </div>
                 
                 <p className="text-lg text-gray-300 font-light mb-8">
-                  We service locations beyond those listed. If you don't see your city, please contact us. 
+                  We service locations beyond those listed. If you don&apos;t see your city, please contact us. 
                   We regularly accommodate special requests throughout Southern Ontario and even into the United States.
                 </p>
 

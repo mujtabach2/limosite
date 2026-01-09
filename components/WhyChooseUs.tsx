@@ -184,7 +184,7 @@ export default function WhyChooseUs() {
             <div>
               <h3 className="text-4xl font-light mb-4">Available <span className="gradient-text">24/7</span></h3>
               <p className="text-gray-400 text-lg leading-relaxed font-light">
-                Day or night, we're here when you need us. Experience luxury transportation at any hour.
+                Day or night, we&apos;re here when you need us. Experience luxury transportation at any hour.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">

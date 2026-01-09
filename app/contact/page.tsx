@@ -34,7 +34,7 @@ export default function ContactPage() {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
             <p className="text-xl text-gray-300">
-              We're here to help 24/7. Reach out anytime.
+              We&apos;re here to help 24/7. Reach out anytime.
             </p>
           </div>
         </div>
