@@ -87,7 +87,7 @@ export default function Testimonials() {
             return (
             <div 
               key={index}
-              ref={el => cardRefs.current[index] = el}
+              ref={el => { cardRefs.current[index] = el; }}
               className={`group relative bg-white p-8 md:p-10 transition-all duration-500 border ${
                 isActive ? 'border-gold-500 shadow-xl' : 'border-gray-200'
               }`}
