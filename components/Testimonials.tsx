@@ -16,7 +16,7 @@ export default function Testimonials() {
         ([entry]) => {
           if (entry.isIntersecting) {
             setTimeout(() => {
-              setVisibleCards(prev => new Set([...prev, index]));
+              setVisibleCards(prev => new Set(Array.from(prev).concat(index)));
             }, index * 150);
           } else {
             setVisibleCards(prev => {

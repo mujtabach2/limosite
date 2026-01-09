@@ -15,7 +15,7 @@ export default function Services() {
       const observer = new IntersectionObserver(
         ([entry]) => {
           if (entry.isIntersecting) {
-            setVisibleCards(prev => new Set([...prev, index]));
+            setVisibleCards(prev => new Set(Array.from(prev).concat(index)));
           } else {
             setVisibleCards(prev => {
               const newSet = new Set(prev);
