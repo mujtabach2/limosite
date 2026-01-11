@@ -23,7 +23,18 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">Apex Executive Limo</h3>
+            <div className="flex items-center gap-3 mb-4">
+              <img 
+                src="/apexLogo.png" 
+                alt="Apex Limo" 
+                className="h-10 w-auto"
+              />
+              <h3 className="text-2xl font-bold leading-none">
+                <span className="text-white">Apex</span>
+                {" "}
+                <span className="gradient-text">Limo</span>
+              </h3>
+            </div>
             <p className="text-gray-400 mb-4">
               Premium luxury transportation service in the Greater Toronto Area. Available 24/7 for all your travel needs.
             </p>

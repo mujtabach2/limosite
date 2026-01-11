@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
-import { FiMenu, FiX, FiPhone, FiStar } from 'react-icons/fi';
+import { FiMenu, FiX, FiPhone } from 'react-icons/fi';
 import { usePathname } from 'next/navigation';
 
 export default function Navbar() {
@@ -38,16 +38,16 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16 md:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2 md:space-x-3 group">
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-gold-500 to-gold-400 rounded-lg blur opacity-0 group-hover:opacity-50 transition-opacity" />
-              <div className="relative bg-gradient-to-br from-gray-900 to-gray-700 text-gold-400 w-8 h-8 md:w-10 md:h-10 rounded-lg flex items-center justify-center">
-                <FiStar className="w-4 h-4 md:w-5 md:h-5 fill-current" />
-              </div>
-            </div>
-            <div className="text-xl md:text-2xl font-bold">
-              <span className="bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">Apex</span>{' '}
-              <span className="gradient-text">Executive</span>
+          <Link href="/" className="flex items-center gap-2 md:gap-3 group">
+            <img 
+              src="/apexLogo.png" 
+              alt="Apex Limo" 
+              className="h-6 md:h-8 w-auto transition-transform group-hover:scale-105"
+            />
+            <div className="text-xl md:text-2xl font-bold leading-none">
+              <span className="text-luxury-black">Apex</span>
+              {" "}
+              <span className="gradient-text">Limo</span>
             </div>
           </Link>
 
