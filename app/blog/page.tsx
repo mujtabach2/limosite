@@ -18,7 +18,7 @@ const blogPosts = [
     category: 'Airport Travel',
     date: '2024-01-15',
     readTime: '5 min read',
-    author: 'GTA Limo Team'
+    author: 'Apex Limo Team'
   },
   {
     slug: 'corporate-transportation-benefits',
@@ -28,7 +28,7 @@ const blogPosts = [
     category: 'Corporate',
     date: '2024-01-10',
     readTime: '4 min read',
-    author: 'GTA Limo Team'
+    author: 'Apex Limo Team'
   },
   {
     slug: 'wedding-transportation-planning',
@@ -38,7 +38,7 @@ const blogPosts = [
     category: 'Weddings',
     date: '2024-01-05',
     readTime: '6 min read',
-    author: 'GTA Limo Team'
+    author: 'Apex Limo Team'
   },
   {
     slug: 'choosing-right-limo-service',
@@ -48,7 +48,7 @@ const blogPosts = [
     category: 'Tips & Guides',
     date: '2024-01-01',
     readTime: '5 min read',
-    author: 'GTA Limo Team'
+    author: 'Apex Limo Team'
   },
   {
     slug: 'luxury-travel-business-executives',
@@ -58,7 +58,7 @@ const blogPosts = [
     category: 'Corporate',
     date: '2023-12-28',
     readTime: '4 min read',
-    author: 'GTA Limo Team'
+    author: 'Apex Limo Team'
   },
   {
     slug: 'airport-limo-vs-taxi-comparison',
@@ -68,11 +68,51 @@ const blogPosts = [
     category: 'Airport Travel',
     date: '2023-12-20',
     readTime: '3 min read',
-    author: 'GTA Limo Team'
+    author: 'Apex Limo Team'
+  },
+  {
+    slug: 'night-out-transportation-guide',
+    title: 'Safe Night Out: Your Transportation Guide',
+    excerpt: 'Plan the perfect night out with safe, reliable transportation options for bars, clubs, and events.',
+    image: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&q=80',
+    category: 'Tips & Guides',
+    date: '2023-12-15',
+    readTime: '4 min read',
+    author: 'Apex Limo Team'
+  },
+  {
+    slug: 'luxury-suv-vs-sedan-guide',
+    title: 'Luxury SUV vs Sedan: Which Should You Choose?',
+    excerpt: 'Understanding the differences between luxury SUVs and sedans to make the best choice for your needs.',
+    image: 'https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=800&q=80',
+    category: 'Fleet',
+    date: '2023-12-10',
+    readTime: '5 min read',
+    author: 'Apex Limo Team'
+  },
+  {
+    slug: 'toronto-pearson-terminal-guide',
+    title: 'Toronto Pearson Airport Terminal Guide',
+    excerpt: 'Navigate Toronto Pearson&apos;s terminals like a pro with our comprehensive guide.',
+    image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&q=80',
+    category: 'Airport Travel',
+    date: '2023-12-05',
+    readTime: '6 min read',
+    author: 'Apex Limo Team'
+  },
+  {
+    slug: 'special-occasions-limo-rental',
+    title: 'Celebrating Special Occasions with a Limo',
+    excerpt: 'From birthdays to anniversaries, discover how a luxury limo can elevate any celebration.',
+    image: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80',
+    category: 'Weddings',
+    date: '2023-11-28',
+    readTime: '4 min read',
+    author: 'Apex Limo Team'
   },
 ];
 
-const categories = ['All', 'Airport Travel', 'Corporate', 'Weddings', 'Tips & Guides'];
+const categories = ['All', 'Airport Travel', 'Corporate', 'Weddings', 'Fleet', 'Tips & Guides'];
 
 export default function BlogPage() {
   return (
