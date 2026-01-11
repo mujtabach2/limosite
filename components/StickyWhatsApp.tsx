@@ -20,7 +20,7 @@ export default function StickyWhatsApp() {
   }, []);
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = '16477207100'; // Your WhatsApp number (with country code, no +)
+    const phoneNumber = '14374407100'; // Your WhatsApp number (with country code, no +)
     const message = encodeURIComponent('Hi! I would like to inquire about your limo service.');
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };

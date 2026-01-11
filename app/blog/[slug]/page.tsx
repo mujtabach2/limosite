@@ -1259,7 +1259,7 @@ export default function BlogPost({ params }: Props) {
                 <Link href="/book" className="bg-white text-gray-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors text-center">
                   Book Now
                 </Link>
-              <a href="tel:+16477207100" className="border-2 border-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-gray-900 transition-colors text-center">
+              <a href="tel:+14374407100" className="border-2 border-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-gray-900 transition-colors text-center">
                 Call Us
               </a>
               </div>

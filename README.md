@@ -175,5 +175,5 @@ Private - All rights reserved
 
 ## Support
 
-For support, email info@apexexecutivelimo.com or call (647) 720-7100
+For support, email Apexlimo.ca@gmail.com or call (437) 440-7100
 

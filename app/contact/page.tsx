@@ -87,7 +87,7 @@ export default function ContactPage() {
                 {submitStatus === 'error' && (
                   <div className="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-lg mb-6">
                     <p className="font-semibold">Failed to send message.</p>
-                    <p className="text-sm">Please try again or call us directly at (647) 720-7100.</p>
+                    <p className="text-sm">Please try again or call us directly at (437) 440-7100.</p>
                   </div>
                 )}
                 
@@ -195,8 +195,8 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-lg mb-1">Phone</h3>
-                  <a href="tel:+16477207100" className="text-gray-600 hover:text-gray-900">
-                    (647) 720-7100
+                  <a href="tel:+14374407100" className="text-gray-600 hover:text-gray-900">
+                    (437) 440-7100
                   </a>
                       <p className="text-sm text-gray-500 mt-1">24/7 Available</p>
                     </div>
@@ -208,8 +208,8 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-lg mb-1">Email</h3>
-                      <a href="mailto:info@gtalimo.com" className="text-gray-600 hover:text-gray-900">
-                        info@gtalimo.com
+                      <a href="mailto:Apexlimo.ca@gmail.com" className="text-gray-600 hover:text-gray-900">
+                        Apexlimo.ca@gmail.com
                       </a>
                       <p className="text-sm text-gray-500 mt-1">We reply within 1 hour</p>
                     </div>

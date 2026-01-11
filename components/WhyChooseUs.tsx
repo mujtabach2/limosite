@@ -188,7 +188,7 @@ export default function WhyChooseUs() {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="tel:+16477207100" className="bg-gold-500 text-luxury-black px-8 py-4 font-semibold hover:bg-gold-400 transition-all text-center">
+              <a href="tel:+14374407100" className="bg-gold-500 text-luxury-black px-8 py-4 font-semibold hover:bg-gold-400 transition-all text-center">
                 Call Now
               </a>
               <a href="/book" className="border-2 border-white text-white px-8 py-4 font-semibold hover:bg-white hover:text-luxury-black transition-all text-center">

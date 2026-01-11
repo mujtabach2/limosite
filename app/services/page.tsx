@@ -167,8 +167,8 @@ export default function ServicesPage() {
               <Link href="/book" className="bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
                 Book Online
               </Link>
-              <a href="tel:+16477207100" className="border-2 border-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-gray-900 transition-colors">
-                Call (647) 720-7100
+              <a href="tel:+14374407100" className="border-2 border-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-gray-900 transition-colors">
+                Call (437) 440-7100
               </a>
             </div>
           </div>

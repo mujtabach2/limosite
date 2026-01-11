@@ -77,13 +77,13 @@ export default function Navbar() {
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-3 lg:space-x-4">
             <a
-              href="tel:+16477207100"
+              href="tel:+14374407100"
               className="hidden lg:flex items-center space-x-2 text-gray-700 hover:text-gold-600 transition-colors group"
             >
               <div className="bg-gray-100 p-2 rounded-lg group-hover:bg-gold-100 transition-colors">
                 <FiPhone className="w-4 h-4" />
               </div>
-              <span className="font-semibold text-sm">(647) 720-7100</span>
+              <span className="font-semibold text-sm">(437) 440-7100</span>
             </a>
             <Link 
               href="/book" 
@@ -127,11 +127,11 @@ export default function Navbar() {
               );
             })}
             <a
-              href="tel:+16477207100"
+              href="tel:+14374407100"
               className="flex items-center space-x-2 px-4 py-3 text-gray-700 hover:text-gray-900 font-semibold"
             >
               <FiPhone className="w-5 h-5" />
-              <span>(647) 720-7100</span>
+              <span>(437) 440-7100</span>
             </a>
             <Link 
               href="/book" 

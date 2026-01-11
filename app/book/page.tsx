@@ -296,18 +296,18 @@ export default function BookPage() {
                 </p>
                 <div className="space-y-3">
                   <a
-                    href="tel:+16477207100"
+                    href="tel:+14374407100"
                     className="flex items-center space-x-3 text-white hover:text-gray-300 transition-colors"
                   >
                     <FiPhone className="w-5 h-5" />
-                    <span className="font-semibold">(647) 720-7100</span>
+                    <span className="font-semibold">(437) 440-7100</span>
                   </a>
                   <a
-                    href="mailto:info@gtalimo.com"
+                    href="mailto:Apexlimo.ca@gmail.com"
                     className="flex items-center space-x-3 text-white hover:text-gray-300 transition-colors"
                   >
                     <FiMail className="w-5 h-5" />
-                    <span>info@gtalimo.com</span>
+                    <span>Apexlimo.ca@gmail.com</span>
                   </a>
                 </div>
               </div>

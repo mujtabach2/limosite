@@ -85,14 +85,14 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <FiPhone className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                <a href="tel:+16477207100" className="text-gray-400 hover:text-white transition-colors">
-                  (647) 720-7100
+                <a href="tel:+14374407100" className="text-gray-400 hover:text-white transition-colors">
+                  (437) 440-7100
                 </a>
               </li>
               <li className="flex items-start space-x-3">
                 <FiMail className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                <a href="mailto:info@gtalimo.com" className="text-gray-400 hover:text-white transition-colors">
-                  info@gtalimo.com
+                <a href="mailto:Apexlimo.ca@gmail.com" className="text-gray-400 hover:text-white transition-colors">
+                  Apexlimo.ca@gmail.com
                 </a>
               </li>
               <li className="flex items-start space-x-3">

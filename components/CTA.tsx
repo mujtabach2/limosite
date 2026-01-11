@@ -41,11 +41,11 @@ export default function CTA() {
               <FiArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
             <a 
-              href="tel:+16477207100" 
+              href="tel:+14374407100" 
               className="border-2 border-white text-white px-10 md:px-12 py-4 md:py-5 font-semibold hover:bg-white hover:text-luxury-black transition-all duration-500 inline-flex items-center space-x-3 w-full sm:w-auto justify-center"
             >
               <FiPhone className="w-5 h-5" />
-              <span className="text-sm md:text-base">(647) 720-7100</span>
+              <span className="text-sm md:text-base">(437) 440-7100</span>
             </a>
           </div>
 

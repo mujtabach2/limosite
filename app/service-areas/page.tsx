@@ -199,11 +199,11 @@ export default function ServiceAreasPage() {
 
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="tel:+16477207100"
+                    href="tel:+14374407100"
                     className="inline-flex items-center justify-center gap-3 bg-gold-500 text-luxury-black px-8 py-4 font-semibold hover:bg-gold-400 transition-colors"
                   >
                     <FiPhone className="w-5 h-5" />
-                    <span>(647) 720-7100</span>
+                    <span>(437) 440-7100</span>
                   </a>
                   <Link
                     href="/contact"

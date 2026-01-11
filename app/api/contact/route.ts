@@ -19,7 +19,7 @@ export async function POST(request: Request) {
     // Send email using Resend
     const data = await resend.emails.send({
       from: 'Apex Limo Contact Form <onboarding@resend.dev>', // You'll change this to your domain later
-      to: process.env.CONTACT_EMAIL || 'info@gtalimo.com', // Your email
+      to: process.env.CONTACT_EMAIL || 'Apexlimo.ca@gmail.com', // Your email
       replyTo: email,
       subject: `Contact Form: ${subject}`,
       html: `
