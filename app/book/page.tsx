@@ -17,12 +17,47 @@ export default function BookPage() {
     passengers: '',
     specialRequests: ''
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission - integrate with your backend/CRM
-    console.log('Form submitted:', formData);
-    alert('Thank you! We will contact you shortly to confirm your booking.');
+    setIsSubmitting(true);
+    setSubmitStatus('idle');
+
+    try {
+      const response = await fetch('/api/booking', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setSubmitStatus('success');
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          serviceType: '',
+          vehicleType: '',
+          pickupDate: '',
+          pickupTime: '',
+          pickupLocation: '',
+          dropoffLocation: '',
+          passengers: '',
+          specialRequests: ''
+        });
+      } else {
+        setSubmitStatus('error');
+      }
+    } catch (error) {
+      console.error('Error submitting booking:', error);
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
@@ -52,6 +87,20 @@ export default function BookPage() {
             {/* Form */}
             <div className="lg:col-span-2">
               <div className="bg-white rounded-2xl shadow-xl p-8">
+                {submitStatus === 'success' && (
+                  <div className="bg-green-50 border border-green-200 text-green-800 px-4 py-3 rounded-lg mb-6">
+                    <p className="font-semibold">Booking request sent successfully! 🎉</p>
+                    <p className="text-sm">We&apos;ll contact you within 1 hour to confirm your reservation.</p>
+                  </div>
+                )}
+                
+                {submitStatus === 'error' && (
+                  <div className="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-lg mb-6">
+                    <p className="font-semibold">Failed to send booking request.</p>
+                    <p className="text-sm">Please try again or call us directly at (437) 440-7100.</p>
+                  </div>
+                )}
+                
                 <form onSubmit={handleSubmit} className="space-y-6">
                   {/* Personal Info */}
                   <div>
@@ -239,9 +288,10 @@ export default function BookPage() {
 
                   <button
                     type="submit"
-                    className="w-full bg-gray-900 text-white py-4 rounded-lg font-semibold text-lg hover:bg-gray-800 transition-colors shadow-lg hover:shadow-xl"
+                    disabled={isSubmitting}
+                    className="w-full bg-gray-900 text-white py-4 rounded-lg font-semibold text-lg hover:bg-gray-800 transition-colors shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed"
                   >
-                    Request Quote & Book Now
+                    {isSubmitting ? 'Sending Request...' : 'Request Quote & Book Now'}
                   </button>
 
                   <p className="text-sm text-gray-600 text-center">
