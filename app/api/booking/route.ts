@@ -30,7 +30,7 @@ export async function POST(request: Request) {
 
     // Send email using Resend
     const data = await resend.emails.send({
-      from: 'Apex Limo Booking <onboarding@resend.dev>',
+      from: 'Apex Limo Booking <onboarding@apexlimo.ca>',
       to: process.env.CONTACT_EMAIL || 'Apexlimo.ca@gmail.com',
       replyTo: email,
       subject: `New Booking Request - ${serviceType}`,
