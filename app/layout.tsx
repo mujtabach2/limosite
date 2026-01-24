@@ -15,7 +15,25 @@ export const metadata: Metadata = {
     title: "Apex Executive Limo - Premium Limo Service GTA",
     description: "Luxury transportation and chauffeur service in the Greater Toronto Area",
     type: "website",
+    url: "https://www.apexlimo.ca",
+    siteName: "Apex Executive Limo",
+    images: [
+      {
+        url: "/apexLogo.png",
+        width: 1200,
+        height: 630,
+        alt: "Apex Executive Limo - Premium Luxury Transportation",
+      },
+    ],
+    locale: "en_CA",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Apex Executive Limo - Premium Limo Service GTA",
+    description: "Luxury transportation and chauffeur service in the Greater Toronto Area",
+    images: ["/apexLogo.png"],
+  },
+  metadataBase: new URL("https://www.apexlimo.ca"),
 };
 
 export default function RootLayout({
